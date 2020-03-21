@@ -2,9 +2,15 @@
 
 This app is created using the Udemy course.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![app_screenshot](https://github.com/Skolozub/hooks-medium-clone/blob/master/app_screenshot.png)
+
+App was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
+
+### `yarn install`
+
+then run
 
 ### `yarn start`
 
