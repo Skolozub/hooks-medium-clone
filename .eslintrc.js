@@ -28,7 +28,12 @@ module.exports = {
       "fetch",
       'es6-number',
       'Object.entries'
-    ]
+    ],
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
   },
   env: {
     browser: true
@@ -76,6 +81,7 @@ module.exports = {
     "no-param-reassign": ["error", { "props": true }],
     "no-use-before-define": ["error", { "functions": true, "classes": true, "variables": true }],
     "no-case-declarations": ["warn"],
+    "semi": ["error", "never"],
 
     "prefer-const": ["error", {}],
     "prefer-spread": ["error"],
